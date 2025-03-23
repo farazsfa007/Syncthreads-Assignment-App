@@ -22,7 +22,6 @@ app.use('/auth',AuthRouter)
 app.use('/dashboard',DashboardRouter)
 // app.use('/map',Dash)
 
-app.listen(PORT, ()=>{
-    connectDB()
-    console.log(`Server is Running at Port=${PORT}👍`)
-})
+connectDB();
+
+export default app;
