@@ -5,6 +5,7 @@ import bodyParser from 'body-parser';
 import connectDB from './Models/db.js';
 import AuthRouter from './routes/authRoutes.js';
 import DashboardRouter from './Routes/DashboardRouter.js'
+
 const app = express();
 
 dotenv.config();
