@@ -14,7 +14,7 @@ function Login() {
 
     const handleChange = (e) => {
         const {name,value} = e.target;
-        // console.log(name,value)
+        console.log(name,value)
         const copyLoginInfo = {...loginInfo}
         copyLoginInfo[name] = value;
         setLoginInfo(copyLoginInfo)
@@ -36,7 +36,7 @@ function Login() {
                 body:JSON.stringify(loginInfo)
             })
             const result = await response.json()
-            // console.log("API Response:", result);
+            console.log("API Response:", result);
             const {success,message,error, jwtToken, name} = result
             if(success){
                 handleSuccess(message)
