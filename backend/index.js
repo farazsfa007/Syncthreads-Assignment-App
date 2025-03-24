@@ -13,7 +13,8 @@ const corsOptions = {
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
-}
+};
+
 
 dotenv.config();
 
@@ -25,7 +26,7 @@ app.get('/check',(req,res)=> {
 
 // Middleware
 app.use(bodyParser.json())
-app.use(cors(corsOptions))
+app.use(cors(corsOptions));
 app.use('/auth',AuthRouter)
 app.use('/dashboard',DashboardRouter)
 
