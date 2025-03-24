@@ -11,7 +11,7 @@ const signupValidation = (req,res,next) => {
         return res.status(400)
         .json({message:"bad request",error})
     }
-    next();
+    next()
 }
 
 const loginValidation = (req,res,next) => {
