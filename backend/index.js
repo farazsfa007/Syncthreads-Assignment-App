@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 import bodyParser from 'body-parser';
 import connectDB from './Models/db.js';
-import AuthRouter from './routes/authRoutes.js';
+import AuthRouter from './Routes/AuthRoutes.js'
 import DashboardRouter from './Routes/DashboardRouter.js'
 
 const app = express();
