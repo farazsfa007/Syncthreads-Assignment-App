@@ -27,7 +27,7 @@ function Login() {
             return handleError("Email & Password are Required")
         }
         try{
-            const url = 'http://localhost:3000/auth/login'
+            const url = `https://syncthreads-assignment-app-api.vercel.app/auth/login`
             const response = await fetch(url,{
                 method:"POST",
                 headers:{
