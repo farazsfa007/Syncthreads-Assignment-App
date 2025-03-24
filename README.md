@@ -2,7 +2,7 @@
 # React Dashboard with Map Integration
 
 ## Project Overview
-This project is a **React (Vite) + Express.js** web application that includes a dashboard and a map of India. It features secure authentication using JWT and integrates an interactive map using **Leaflet** or **OpenLayers**. The goal is to showcase user authentication, protected routes, and seamless map interaction.
+This project is a **React (Vite) + Express.js** web application that includes a dashboard and a map of India. It features secure authentication using JWT and integrates an interactive map using **Leaflet**. The goal is to showcase user authentication, protected routes, and seamless map interaction.
 
 ## Features
 - **User Authentication**
@@ -16,22 +16,21 @@ This project is a **React (Vite) + Express.js** web application that includes a 
   - Clicking on a card navigates to the map view
 
 - **Map Integration**
-  - Displays a map of India using Leaflet/OpenLayers
+  - Displays a map of India using Leaflet
   - Zoom in/out functionality
-  - Optionally highlights locations based on dashboard selection
 
 ## Tech Stack
 ### Frontend (Vite + React)
 - React with Vite for fast development
 - React Router for navigation
 - Bootstrap for UI styling
-- Leaflet/OpenLayers for map integration
+- Leaflet for map integration
 - React Toastify for notifications
 
 ### Backend (Node.js + Express.js)
 - Express.js for API endpoints
 - JSON Web Token (JWT) for authentication
-- MongoDB (optional) or a database of choice
+- MongoDB
 - CORS for cross-origin request handling
 
 ## Installation and Setup
