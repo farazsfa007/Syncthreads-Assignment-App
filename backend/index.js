@@ -12,7 +12,7 @@ dotenv.config();
 
 const PORT = process.env.PORT || 5000;
 
-app.get('/',(req,res)=> {
+app.get('/check',(req,res)=> {
     res.send("hello from server")
 })
 
