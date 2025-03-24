@@ -21,7 +21,6 @@ app.use(bodyParser.json())
 app.use(cors());
 app.use('/auth',AuthRouter)
 app.use('/dashboard',DashboardRouter)
-// app.use('/map',Dash)
 
 app.listen(PORT, ()=>{
     connectDB()
